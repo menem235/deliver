@@ -5,7 +5,7 @@ Everything needed to reproduce a successful, captcha-free login to the Semrush "
 | Item | Value |
 |---|---|
 | Target | `https://agencies.semrush.com/` |
-| Test account (researcher-owned) | `alpha1@tashira.tech` / `Donott@lktome2` |
+| Test account (researcher-owned) | `alpha1@tashira.tech` / `Donott@lktome2` |`alpha2@tashira.tech` / `Donott@lktome2`
 | Result | ✅ `POST https://www.semrush.com/sso/authorize` → **HTTP 201**, session verified |
 | Captcha on login | **None** — no edge challenge ("Checking your browser - reCAPTCHA"), no form reCAPTCHA (`recaptcha_authorize: false` for this IP) |
 | Runtime | Python 3 + Playwright (Chromium), headless |
